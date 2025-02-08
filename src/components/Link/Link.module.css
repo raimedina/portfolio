@@ -1,0 +1,28 @@
+@import url('../../styles/variables.module.css');
+
+.link {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  transition: color var(--animation-speed-normal), opacity var(--animation-speed-normal);
+}
+
+.link:hover {
+  color: var(--primary-color);
+  opacity: var(--hover-opacity);
+}
+
+.link:focus {
+  outline-offset: var(--spacing-xxsmall);
+  border-radius: var(--border-radius-small);
+}
+
+.link:active {
+  color: var(--accent-color);
+  opacity: 1;
+}
+
+.link:disabled {
+  pointer-events: none;
+  opacity: 0.6;
+}

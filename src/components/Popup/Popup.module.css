@@ -1,0 +1,57 @@
+@import url('../../styles/variables.module.css');
+
+.bubbleContainer {
+  display: var(--display-flex);
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: var(--spacing-large);
+  right: var(--spacing-large);
+  z-index: var(--z-index-header);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.bubble {
+  background-color: var(--secondary-color);
+  color: white;
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-small);
+  font-weight: 100;
+  padding: var(--spacing-small);
+  border-radius: var(--border-radius-xlarge);
+  box-shadow: var(--shadow-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  gap: var(--spacing-xxsmall);
+  transition: transform var(--animation-speed-fast), white var(--animation-speed-fast);
+}
+
+.bubble:hover {
+  background-color: var(--accent-color);
+  transform: scale(1.05);
+}
+
+.bubble::after {
+  content: "";
+  transform: rotate(24deg);
+  position: absolute;
+  top: -8px;
+  right: 2px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 14px 13px 8px;
+  border-color: transparent transparent var(--secondary-color) transparent;
+}
+
+.bubble:hover::after {
+  border-color: transparent transparent var(--accent-color) transparent;
+}
+
+.handIcon {
+  font-size: calc(var(--font-size-large));
+}

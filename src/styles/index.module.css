@@ -1,0 +1,46 @@
+@import url('./variables.module.css');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  line-height: var(--line-height-large);
+ 
+}
+
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto; 
+  width: 100%;
+}
+
+.content {
+  flex: 1;
+}
+
+
+body {
+  font-family: var(--font-family-primary, Arial, sans-serif);
+  background-color: var(--background-color); 
+  color: var(--text-color); 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+  text-align: justify;
+  line-height: var(--line-height-large);
+}
+
+
+[data-theme="dark"] {
+  --background-color: #000; 
+  --text-color: #fff;       
+}

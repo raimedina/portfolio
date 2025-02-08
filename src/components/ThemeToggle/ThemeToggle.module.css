@@ -1,0 +1,44 @@
+
+@import url("../../styles/variables.module.css");
+
+.toggleWrapper {
+  width: 60px;
+  height: 30px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 20%);
+}
+
+.light {
+  background-color: #f0f0f0;
+}
+
+.dark {
+  background-color: var(--primary-color);
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 30%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-medium);
+  transition: transform 0.5s ease, rotate 0.5s ease;
+}
+
+.light .icon {
+  transform: translateX(0) rotate(0deg);
+}
+
+.dark .icon {
+  transform: translateX(30px) rotate(180deg);
+}

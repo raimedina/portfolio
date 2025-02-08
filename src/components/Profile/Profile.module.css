@@ -1,0 +1,197 @@
+@import url('../../styles/variables.module.css');
+
+.profileSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: var(--spacing-large);
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--shadow-medium);
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  transition: height 0.3s ease-in-out;
+  position: relative;
+}
+
+.contentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: var(--spacing-medium);
+  padding: var(--spacing-medium);
+  position: relative;
+}
+
+.photoContainer {
+  flex-shrink: 0;
+  width: 30%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: var(--shadow-large);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profilePhoto {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.profilePhoto:hover {
+  transform: scale(1.05);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  width: 70%;
+}
+
+.name {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: var(--accent-color);
+  text-align: left;
+}
+
+.summary1 {
+  font-size: 1.3rem;
+  line-height: 3rem;
+  color: white;
+  max-width: 100%;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.dropdownContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--spacing-medium);
+  width: 100%;
+}
+
+.dropdownButton {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-bottom: 5%;
+}
+
+.dropdownButton:hover {
+  transform: scale(1.1);
+}
+
+.summary2Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: justify;
+  
+  
+  margin-top: var(--spacing-small);
+  transition: margin-top 0.3s ease-in-out;
+ 
+}
+
+.summary2 {
+  width: 95%;
+  text-align: justify;
+  display: block;
+  line-height:3rem;
+  margin-top: -20px;
+  font-size: 1.3rem;
+}
+
+
+.cvButtonContainer {
+  position: absolute;
+  bottom: var(--spacing-medium);
+  right: var(--spacing-medium);
+  
+}
+
+.cvButton {
+  background-color: var(--primary-color);
+  color: white;
+  padding: var(--spacing-medium) var(--spacing-xlarge);
+  border-radius: var(--border-radius-large);
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+
+.cvButton:hover {
+  background-color: var(--hover-color);
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+  .profileSection {
+   
+    padding: var(--spacing-small);
+    width: 100%;
+  }
+
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+  }
+
+  .dropdownButton {
+
+    margin-bottom: 15%;
+  }
+  .name {
+    font-size: 2rem;
+    margin-bottom: var(--spacing-small);
+    max-width: 100%;
+  }
+  .textContainer {
+    width: 100%;  
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    text-align: justify;
+ }
+  .summary1, .summary2 {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    text-align: justify;
+    width: 98%; 
+    max-width: 98%;
+    padding: 0 var(--spacing-xxsmall);
+    margin: auto;
+    margin-bottom: 5%;
+     hyphens: auto; 
+    word-break: break-word;
+  }
+
+  .cvButton {
+    
+    font-size: 1.3rem;
+    padding: var(--spacing-small) var(--spacing-medium);
+  }
+}

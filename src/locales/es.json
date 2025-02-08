@@ -1,0 +1,163 @@
+{
+  "header": {
+    "title": "Raiza Medina",
+    "ariaLabel": "Ir a la página de inicio de {{title}}"
+  },
+  "navbar": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+
+  "about": {
+    "summary1": "Mi viaje en la tecnología comenzó en 2020 cuando me sumergí en la programación, combinando mi formación en Periodismo y una Maestría en Ciencias de la Comunicación. Esta transición me llevó naturalmente al Desarrollo Frontend, donde me especializo en la creación de interfaces intuitivas y escalables. Al haber vivido en Portugal, Irlanda y España, he desarrollado adaptabilidad y sólidas habilidades de colaboración en entornos multiculturales.",
+    "summary2": "Actualmente, soy Desarrollador Frontend especializado en el ecosistema de JavaScript, con experiencia en React, TypeScript, Redux, CSS Modules y Next.js. También tengo conocimientos en React Native, Storybook, Jest y SCSS, con un enfoque en la optimización del rendimiento, accesibilidad y desarrollo responsivo. He contribuido a proyectos internacionales en Celfocus, trabajando en interfaces para Vodafone Alemania, Vodafone Reino Unido y Du (EAU), y también he trabajado como freelance en aplicaciones web y móviles. Además, hablo con fluidez portugués, inglés y español, con conocimientos básicos de italiano, lo que facilita la colaboración en proyectos globales. Apasionado por el impacto de la tecnología, busco constantemente innovar y mejorar las experiencias de los usuarios.",
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Curso de Español",
+        "location": "Understand (Valencia, España)",
+        "details": "Curso intensivo para mejorar la fluidez y comprensión del idioma.",
+        "type": "course"
+      },
+      {
+        "year": "2023 - 2024",
+        "event": "Desarrollo de Aplicaciones Móviles",
+        "location": "IEFP (Oporto, Portugal)",
+        "details": "Formación en desarrollo de aplicaciones móviles, abarcando diseño y creación de interfaces interactivas, programación móvil con React Native, estilos avanzados en CSS, creación de contenido multimedia para dispositivos móviles, integración de servicios y desarrollo de scripts para automatización.",
+        "type": "ti"
+      },
+      {
+        "year": "2021-2023",
+        "event": "Desarrolladora Frontend",
+        "location": "Celfocus (Oporto, Portugal)",
+        "details": "Diseño e implementación de interfaces modernas con React para proyectos de alto impacto. Colaboración en equipos ágiles (Scrum) utilizando Git, Jira e integración continua. Desarrollo y optimización de plataformas digitales para clientes internacionales, incluyendo Du (Emiratos Árabes Unidos), Vodafone Alemania (portal interno de gestión de canales de TV) y Vodafone Reino Unido (proyecto OIT). También trabajé en iniciativas internas enfocadas en mejorar la experiencia del usuario y la escalabilidad de soluciones.",
+        "type": "ti"
+      },
+      {
+        "year": "2022",
+        "event": "User Experience: Guía para Principiantes",
+        "location": "Interaction Design Foundation (Online)",
+        "details": "Curso introductorio sobre los principios fundamentales de UX, abordando diseño centrado en el usuario, usabilidad y buenas prácticas para mejorar la experiencia digital.",
+        "type": "ti"
+      },
+      {
+        "year": "2021-2022",
+        "event": "Freelancer",
+        "location": "Remoto",
+        "details": "Desarrollo de una aplicación móvil con React Native, centrado en la construcción de componentes UI responsivos, integración de APIs y optimización del rendimiento para una experiencia fluida entre dispositivos.",
+        "type": "ti"
+      },
+      {
+        "year": "2020",
+        "event": "Hackathon",
+        "location": "Online",
+        "details": "Ganadora del primer lugar en un Hackathon por desarrollar una aplicación web que optimizó el reclutamiento a través de un sistema automatizado de coincidencia de habilidades, conectando profesionales con las oportunidades adecuadas.",
+        "type": "ti"
+      },
+      {
+        "year": "2020",
+        "event": "Bootcamp Fullstack",
+        "location": "Academia de Código (Portugal)",
+        "details": "Programa intensivo de formación en desarrollo web fullstack, con enfoque en tecnologías backend como Java, Spring MVC, MySQL, Hibernate, JUnit, log4j y Tomcat, además de frontend con HTML, CSS, JavaScript y jQuery. Desarrollo de proyectos prácticos, incluyendo 'JavaBank', una aplicación bancaria simulada para reforzar conceptos de arquitectura de software y buenas prácticas de desarrollo.",
+        "type": "ti"
+      },
+      {
+        "year": "2019-2020",
+        "event": "Curso de Inglés",
+        "location": "IBAT College Dublin (Irlanda)",
+        "details": "Curso especializado para mejorar la fluidez y comprensión del idioma.",
+        "type": "course"
+      },
+      {
+        "year": "2016-2021",
+        "event": "Máster en Ciencias de la Comunicación",
+        "location": "Universidad de Oporto (Portugal)",
+        "details": "Máster en Ciencias de la Comunicación con especialización en Estudios de Medios y Periodismo. Investigación centrada en comunicación digital, nuevos medios y estrategias para la producción y difusión de contenido en entornos digitales.",
+        "type": "communication"
+      },
+      {
+        "year": "2016-2018",
+        "event": "Gestora Administrativa",
+        "location": "Club Toda a Prova (Oporto, Portugal)",
+        "details": "Gestión de una escuela de fútbol con 12 equipos, brindando apoyo a atletas y entrenadores. Atención al cliente y manejo de crisis administrativas, garantizando eficiencia y resolución de problemas. Supervisión financiera, seguimiento de ingresos y gastos, y negociación de contratos con socios y proveedores.",
+        "type": "communication"
+      },
+      {
+        "year": "2015",
+        "event": "Asesora de Comunicación",
+        "location": "Cámara Municipal de Río Grande (Brasil)",
+        "details": "Redacción de comunicados de prensa y copywriting para comunicación institucional y campañas públicas. Producción de materiales multimedia y desarrollo de estrategias de comunicación para eventos e iniciativas gubernamentales.",
+        "type": "comunicación"
+      },
+      {
+        "year": "2013-2015",
+        "event": "Asistente de Comunicación",
+        "location": "Emater Pelotas (Brasil)",
+        "details": "Producción de contenido para programas de radio e informes televisivos. Desarrollo de textos publicitarios, comunicados de prensa y fotoperiodismo. Organización y ejecución de campañas de comunicación rural.",
+        "type": "communication"
+      },
+      {
+        "year": "2011-2014",
+        "event": "Licenciatura en Periodismo",
+        "location": "Universidad Federal de Pelotas (Brasil)",
+        "details": "Licenciatura en Periodismo con énfasis en periodismo digital, producción multimedia y comunicación estratégica. Formación para desempeñarse en diversas plataformas, incluyendo medios digitales, audiovisuales e impresos.",
+        "type": "course"
+      }
+    ]
+  },
+
+  "projects": {
+    "title": "Proyectos",
+    "list": [
+      {
+        "title": "Biblioteca de Componentes",
+        "text": "Component Library es una biblioteca de componentes reutilizables desarrollada con React, TypeScript y SCSS, diseñada para acelerar el desarrollo de interfaces de usuario modernas y responsivas. Ofrece componentes bien estructurados, escalables y personalizables, reduciendo el tiempo de desarrollo y garantizando la coherencia del diseño en todas las aplicaciones. Con documentación en Storybook y soporte para pruebas en Jest, se integra perfectamente en flujos de trabajo ágiles y proyectos frontend escalables, proporcionando componentes UI preconstruidos, soporte para TypeScript y vistas previas de componentes en tiempo real."
+      },
+      {
+        "title": "InvoiceApp",
+        "text": "InvoiceApp es una aplicación web moderna y responsiva desarrollada con React, Redux y CSS Modules, diseñada para simplificar la gestión de facturas. Con una interfaz intuitiva y funciones de filtrado y ordenación en tiempo real, optimiza las operaciones financieras, siendo una solución ideal para freelancers, pequeñas empresas y profesionales de servicios. Diseñada para ser escalable y segura, InvoiceApp facilita el seguimiento y la organización de facturas, ofreciendo filtros dinámicos, operaciones CRUD y un diseño totalmente responsivo."
+      }
+    ]
+  },
+
+  "card": {
+    "buttonText": "Ver más →"
+  },
+
+  "contact": {
+    "title": "Hablemos",
+    "description": "¡Construyamos algo increíble juntos! Si tienes un proyecto en mente, necesitas una desarrolladora para tu equipo o simplemente quieres charlar sobre desarrollo frontend, envíame un mensaje.",
+    "nameLabel": "Nombre",
+    "emailLabel": "Correo electrónico",
+    "messageLabel": "Mensaje",
+    "namePlaceholder": "Escribe tu nombre",
+    "emailPlaceholder": "Escribe tu correo",
+    "messagePlaceholder": "Escribe tu mensaje",
+    "buttonLabel": "Enviar",
+    "statusSuccess": "¡Mensaje enviado con éxito!",
+    "statusError": "Error al enviar el mensaje. Inténtalo de nuevo."
+  },
+
+  "popup": {
+    "message": "¿Tienes alguna sugerencia?",
+    "ariaLabel": "Enviar un mensaje por WhatsApp"
+  },
+
+  "footer": {
+    "name": "Raiza Medina",
+    "description": "Desarrolladora Frontend con experiencia internacional, combinando tecnología y comunicación para crear interfaces eficientes y accesibles. Con un Máster en Comunicación por la Universidad de Oporto, me especializo en React y desarrollo frontend moderno, aplicando metodologías ágiles para entregar soluciones escalables y de alto rendimiento. ¡Hagamos realidad grandes ideas!",
+    "linkedinAria": "Visita mi perfil en LinkedIn",
+    "githubAria": "Explora mis proyectos en GitHub",
+    "footerNote": "© 2024 - Hecho con 💻 y ❤️"
+  },
+
+  "section": {
+    "role": "Desarrolladora Frontend",
+    "summary1": "Creando interfaces escalables, accesibles y de alto rendimiento.",
+    "summary2": "Con 9 años de experiencia internacional y un Máster en Comunicación, conecto tecnología y desarrollo para crear experiencias digitales fluidas y responsivas. Especializada en React, JavaScript, TypeScript, CSS Modules y metodologías ágiles, tengo experiencia en desarrollo basado en componentes, optimización del rendimiento y buenas prácticas de accesibilidad. Apasionada por la colaboración en equipos ágiles, construyendo productos innovadores y centrados en el usuario.",
+    "cvButton": "CV",
+    "moreDetails": "Ver más →"
+  }
+}

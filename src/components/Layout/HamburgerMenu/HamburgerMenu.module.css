@@ -1,0 +1,98 @@
+@import url('../../../styles/variables.module.css');
+
+.hamburgerMenu {
+  position: relative;
+  z-index: var(--z-index-header);
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: var(--font-size-xlarge);
+  color: white;
+  transition: transform var(--transition-fast);
+}
+
+.menuButton:hover {
+  transform: scale(1.1);
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 250px;
+  height: 100%;
+  background-color: var(--primary-color);
+  box-shadow: 2px 0 12px rgb(0 0 0 / 50%);
+  display: flex;
+  flex-direction: column;
+  padding-top: var(--spacing-large);
+  transition: right 0.3s ease-in-out;
+  z-index: 20;
+}
+
+.menu.open {
+  right: 0;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  font-size: var(--font-size-xlarge);
+  color: white;
+  align-self: flex-end;
+  margin: var(--spacing-small);
+  cursor: pointer;
+  transition: transform var(--transition-fast);
+}
+
+.closeButton:hover {
+  transform: scale(1.1);
+}
+
+.menuItem {
+  list-style: none;
+  margin: var(--spacing-small) 0;
+  padding: var(--spacing-small) var(--spacing-medium);
+}
+
+.menuItem a {
+  text-decoration: none;
+  color: white;
+  font-size: var(--font-size-medium);
+  font-weight: 600;
+  transition: color var(--transition-fast);
+}
+
+.menuItem a:hover {
+  color: var(--secondary-color);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0 0 0 / 50%);
+  z-index: 10;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (width <= 768px) {
+  .menu {
+    width: 70%;
+  }
+}

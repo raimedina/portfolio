@@ -1,0 +1,163 @@
+{
+  "header": {
+    "title": "Raiza Medina",
+    "ariaLabel": "Visit {{title}}'s Homepage"
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+
+  "about": {
+    "summary1": "My journey into technology began in 2020 when I immersed myself in programming, combining my background in Journalism and a Master’s in Communication Sciences. This transition led me naturally to Frontend Development, where I specialize in creating intuitive and scalable interfaces. Having lived in Portugal, Ireland, and Spain, I’ve developed adaptability and strong collaboration skills in multicultural environments.",
+    "summary2": "Currently, I am a Frontend Developer specializing in the JavaScript ecosystem, with experience in React, TypeScript, Redux, CSS Modules, and Next.js. I also have knowledge of React Native, Storybook, Jest, and SCSS, focusing on performance optimization, accessibility, and responsive development. I have contributed to international projects at Celfocus, working on interfaces for Vodafone Germany, Vodafone UK, and Du (UAE), and I have also worked as a freelancer on web and mobile applications. Additionally, I am fluent in Portuguese, English, and Spanish, with basic knowledge of Italian, facilitating global collaboration. Passionate about technology’s impact, I continuously seek to innovate and enhance user experiences.",
+    "timeline": [
+      {
+        "year": "2024",
+        "event": "Spanish Course",
+        "location": "Understand (Valencia, Spain)",
+        "details": "Intensive course to improve Spanish.",
+        "type": "course"
+      },
+      {
+        "year": "2023 - 2024",
+        "event": "Mobile Development",
+        "location": "IEFP (Porto, Portugal)",
+        "details": "Training in mobile application development, covering interactive interface design, mobile programming with React Native, advanced CSS styling, multimedia content creation for mobile devices, service integration, and script development for automation.",
+        "type": "ti"
+      },
+      {
+        "year": "2021-2023",
+        "event": "Frontend Developer",
+        "location": "Celfocus (Porto, Portugal)",
+        "details": "Design and implementation of modern interfaces with React for high-impact projects. Collaborated in Agile teams (Scrum) using Git, Jira, and continuous integration. Developed and optimized digital platforms for international clients, including Du (United Arab Emirates), Vodafone Germany (internal TV channel management portal), and Vodafone UK (OIT project). Focused on scalable, high-performance interfaces using React, Redux, and CSS. Also worked on internal company initiatives focused on enhancing user experience and solution scalability.",
+        "type": "ti"
+      },
+      {
+        "year": "2022",
+        "event": "User Experience: The Beginner’s Guide",
+        "location": "Interaction Design Foundation (Online)",
+        "details": "Introductory course on fundamental UX principles, covering user-centered design, usability, and best practices for enhancing digital experiences.",
+        "type": "ti"
+      },
+      {
+        "year": "2021-2022",
+        "event": "Freelancer",
+        "location": "Remote",
+        "details": "Developed a mobile application using React Native, focusing on building responsive UI components, integrating APIs, and optimizing performance for a seamless cross-device experience.",
+        "type": "ti"
+      },
+      {
+        "year": "2020",
+        "event": "Hackathon",
+        "location": "Online",
+        "details": "Won first place in a Hackathon by developing a web application that streamlined recruitment through automated skill-based job matching, connecting professionals with the right opportunities.",
+        "type": "ti"
+      },
+      {
+        "year": "2020",
+        "event": "Fullstack Bootcamp",
+        "location": "Academia de Código (Portugal)",
+        "details": "Intensive training program that marked the beginning of my journey in technology, focusing on fullstack web development. Gained expertise in backend technologies such as Java, Spring MVC, MySQL, Hibernate, JUnit, log4j, and Tomcat, as well as frontend technologies like HTML, CSS, JavaScript, and jQuery. Developed practical projects, including 'JavaBank,' a simulated banking application designed to reinforce software architecture concepts and best development practices.",
+        "type": "ti"
+      },
+      {
+        "year": "2019-2020",
+        "event": "English Course",
+        "location": "IBAT College Dublin (Ireland)",
+        "details": "Specialized course to improve fluency and language comprehension.",
+        "type": "course"
+      },
+      {
+        "year": "2016-2021",
+        "event": "Master's in Communication Sciences",
+        "location": "University of Porto (Portugal)",
+        "details": "Master's in Communication Sciences with a specialization in Media and Journalism Studies. Research focused on digital communication, new media, and strategies for content production and dissemination in digital environments.",
+        "type": "communication"
+      },
+      {
+        "year": "2016-2018",
+        "event": "Administrative Manager",
+        "location": "Club Toda a Prova (Porto, Portugal)",
+        "details": "Managed a football school with 12 teams, providing support for athletes and coaches. Handled customer service and administrative crisis management, ensuring efficiency and problem resolution. Oversaw financial operations, including expense tracking, revenue management, and contract negotiations with partners and suppliers.",
+        "type": "communication"
+      },
+      {
+        "year": "2015",
+        "event": "Communication Advisor",
+        "location": "City Council of Rio Grande (Brazil)",
+        "details": "Wrote press releases and copywriting for institutional communication and public campaigns. Produced multimedia materials and developed strategic communication plans for events and government initiatives.",
+        "type": "communication"
+      },
+      {
+        "year": "2013-2015",
+        "event": "Communication Assistant",
+        "location": "Emater Pelotas (Brazil)",
+        "details": "Produced content for radio programs and TV reports. Developed advertising texts, press releases, and photojournalism. Organized and executed rural communication campaigns.",
+        "type": "communication"
+      },
+      {
+        "year": "2011-2014",
+        "event": "Bachelor's in Journalism",
+        "location": "Federal University of Pelotas (Brazil)",
+        "details": "Bachelor's degree in Journalism with a focus on digital journalism, multimedia production, and strategic communication. Training for working across various platforms, including digital media, audiovisual, and print.",
+        "type": "communication"
+      }
+    ]
+  },
+
+  "projects": {
+    "title": "Projects",
+    "list": [
+      {
+        "title": "Component Library",
+        "text": "A reusable component library built with React, TypeScript, and SCSS to accelerate the development of modern and responsive user interfaces. Designed to be scalable, customizable, and ensure UI consistency, making frontend development more efficient and maintainable in large-scale projects."
+      },
+      {
+        "title": "InvoiceApp",
+        "text": "InvoiceApp is a modern web application built with React, Redux, and CSS Modules to simplify financial management for freelancers and small businesses. With an intuitive interface, dynamic filtering, and full CRUD operations, it streamlines invoice tracking and organization."
+      }
+    ]
+  },
+
+  "card": {
+    "buttonText": "More Details →"
+  },
+
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Interested in working together? Whether you need a skilled frontend developer for your team, have a project in mind, or just want to exchange ideas about web development, feel free to reach out!",
+    "nameLabel": "Your Full Name",
+    "emailLabel": "Your Email Address",
+    "messageLabel": "Your Message",
+    "namePlaceholder": "Enter your full name",
+    "emailPlaceholder": "Enter your email address",
+    "messagePlaceholder": "Write your message here",
+    "buttonLabel": "Send Message",
+    "statusSuccess": "Your message has been sent successfully!",
+    "statusError": "Oops! Something went wrong. Please try again later."
+  },
+
+  "popup": {
+    "message": "Suggestions?",
+    "ariaLabel": "Send a message via WhatsApp"
+  },
+
+  "footer": {
+    "name": "Raiza Medina",
+    "description": "Frontend Developer with international experience, specializing in React, JavaScript, and modern web technologies. Passionate about building scalable, accessible, and high-performance interfaces. With a Master’s in Communication from the University of Porto, I combine technical expertise with strategic thinking to craft seamless digital experiences. Let’s build innovative and impactful digital experiences together!",
+    "linkedinAria": "Connect with me on LinkedIn",
+    "githubAria": "Check out my GitHub projects",
+    "footerNote": "© 2024 - Crafted with 💻 & ❤️"
+  },
+
+  "section": {
+    "role": "Frontend Developer",
+    "summary1": "Building scalable, accessible, and high-performance user interfaces.",
+    "summary2": "With 9 years of experience in international teams and a Master’s in Communication, I combine technology and development to create seamless, responsive, and user-centric digital experiences. Specialized in React, JavaScript, TypeScript, CSS Modules, and Agile methodologies, I excel in component-driven development, performance optimization, and accessibility best practices.",
+    "cvButton": "CV",
+    "moreDetails": "More Details →"
+  }
+}

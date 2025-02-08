@@ -1,0 +1,112 @@
+@import url('../../styles/variables.module.css');
+
+
+.languageSwitcher {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-small) var(--spacing-medium); 
+}
+
+.languageButton {
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: var(--font-size-medium);
+  color: white;
+  font-weight: 600;
+  padding: var(--spacing-small) var(--spacing-small);
+  border-radius: var(--border-radius-small);
+  transition: background-color var(--transition-fast), box-shadow var(--transition-fast), color var(--transition-fast);
+}
+
+.languageButton:hover,
+.languageButton:focus {
+  background-color: var(--accent-color);
+  color: white;
+  box-shadow: 0 2px 8px var(--shadow-color);
+  outline: none;
+}
+
+.icon {
+  font-size: var(--font-size-large);
+  color: white;
+  transition: transform var(--transition-fast);
+}
+
+.arrowIcon {
+  font-size: var(--font-size-small);
+  transition: transform var(--transition-fast);
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.languageLabel {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+ 
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: calc(100% + var(--spacing-small)); 
+  right: 0;
+  background-color: var(--cream-light); 
+  border-radius: var(--border-radius-small);
+  box-shadow: 0 4px 12px var(--shadow-color);
+  padding: var(--spacing-xxsmall) 0;
+  z-index: var(--z-index-dropdown);
+  list-style: none;
+  min-width: 120px;
+  animation: fadeIn 0.3s ease;
+  border: 1px solid var(--border-color);
+}
+
+.dropdownMenu li {
+  padding: var(--spacing-small) var(--spacing-medium);
+  cursor: pointer;
+  font-size: var(--font-size-small);
+  color: var(--text-color);
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.dropdownMenu li:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.activeItem {
+  color: white;
+  font-weight: bold;
+  border-left: 4px solid var(--accent-color); 
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (width <= 768px) {
+  .languageButton {
+    font-size: var(--font-size-small);
+  }
+
+  .dropdownMenu {
+    right: auto;
+    left: 0;
+  }
+}

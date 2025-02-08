@@ -1,0 +1,77 @@
+@import url('../../styles/variables.module.css');
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: var(--border-width-medium) solid var(--primary-color);
+  border-radius: var(--border-radius-medium);
+  overflow: hidden;
+  box-shadow: var(--shadow-medium);
+  transition: transform var(--animation-speed-normal), box-shadow var(--animation-speed-normal);
+  width: 100%;
+  max-width: 900px;
+  margin: var(--spacing-medium) auto;
+  gap: var(--spacing-medium);
+  padding: 5px;
+}
+
+.card.reverse {
+  flex-direction: row-reverse;
+}
+
+.image {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+  border-right: var(--border-width-thin) solid var(--border-color);
+}
+
+.card.reverse .image {
+  border-right: none;
+  border-left: var(--border-width-thin) solid var(--border-color);
+}
+
+.content {
+  flex: 1;
+  padding: var(--spacing-small);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: var(--font-size-medium);
+  font-weight: bold;
+  margin-bottom: var(--spacing-xxsmall);
+  color: var(--text-color);
+}
+
+.text {
+  font-size: var(--font-size-small);
+  color: var(--text-color);
+  line-height: var(--line-height-large);
+}
+
+.button {
+  margin-top: var(--spacing-medium);
+  justify-content: center;
+  align-items: center;
+}
+
+@media (width <= 768px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .card.reverse {
+    flex-direction: column;
+  }
+
+  .image {
+    width: 100%;
+    border-right: none;
+    border-bottom: var(--border-width-thin) solid var(--border-color);
+  }
+}

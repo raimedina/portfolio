@@ -1,0 +1,30 @@
+@import url('../../styles/variables.module.css');
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.cardsContainer {
+  display: flex;
+  flex-flow: column wrap;
+  gap: var(--spacing-medium);
+  justify-content: center;
+  padding: var(--spacing-medium) ;
+  flex: 1;
+}
+
+.card {
+  width: 100%;
+  max-width: 800px;
+  min-height: 300px;
+  font-size: var(--font-size-large);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

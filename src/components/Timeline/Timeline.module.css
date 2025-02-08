@@ -1,0 +1,168 @@
+@import url("../../styles/variables.module.css");
+
+
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-large);
+  padding: var(--spacing-xxlarge) 0;
+}
+
+
+.timelineLine {
+  position: absolute;
+  left: 50%;
+  top: -0.5%;
+  bottom: 0;
+  width: var(--border-width-medium);
+  background-color: var(--primary-color);
+  z-index: 0;
+}
+
+
+.timelineItem {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.timelineItem.visible {
+  transform: translateY(0);
+}
+
+
+.leftItem {
+  flex-direction: row-reverse;
+ 
+}
+
+.rightItem {
+  flex-direction: row;
+  
+}
+
+
+.timelineContent {
+  padding: var(--spacing-medium);
+  border-radius: var(--border-radius-medium);
+  box-shadow: var(--shadow-medium);
+  color: var(--text-color);
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  background: var(--cream-light);
+  border-left: 6px solid var(--border-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.timelineContent.course {
+  border-left: 6px solid var(--accent-color);
+}
+
+.timelineContent.ti {
+  border-left: 6px solid var(--secondary-color);
+}
+
+.timelineContent.communication {
+  border-left: 6px solid var(--hover-color);
+}
+
+
+.event {
+  font-size: var(--font-size-large);
+  font-weight: bold;
+  margin-bottom: var(--spacing-small);
+  color: var(--secondary-color);
+}
+
+
+.infoGroup {
+  display: flex;
+  align-items: center;
+  margin-top: var(--spacing-small);
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-small);
+}
+
+.locationIcon {
+  color: var(--primary-color);
+}
+
+.locationText {
+  display: flex;
+  align-items: center;
+}
+
+.year {
+  font-size: var(--font-size-medium);
+  font-weight: bold;
+}
+
+
+.toggleButton {
+  background-color: transparent;
+  border: none;
+  margin-top: var(--spacing-small);
+  cursor: pointer;
+  color: var(--secondary-color);
+  font-size: var(--font-size-large);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.toggleButton:hover {
+  transform: scale(1.2);
+}
+
+
+.details {
+  margin-top: var(--spacing-small);
+  padding: var(--spacing-small);
+  background: rgb(0 0 0 / 5%);
+  border-radius: var(--border-radius-medium);
+  animation: fadeIn 0.3s ease-out;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@media (width <= 768px) {
+  .timelineItem {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .timelineContent {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .timelineLine {
+    width: var(--border-width-thin);
+  }
+}
