@@ -1,0 +1,28 @@
+name: Deploy to Hostinger
+
+on:
+  push:
+    branches:
+      - main  # O deploy será acionado quando fizer push na branch "main"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Instalar dependências
+        run: npm install
+
+      - name: Construir o projeto
+        run: npm run build
+
+      - name: Enviar arquivos para Hostinger via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4
+        with:
+          server: ftp://devmedina.com  # Seu nome de host do FTP
+          username: u852687484  # Seu nome de usuário FTP
+          password: ${{ secrets.FTP_PASSWORD }}  # Senha armazenada no GitHub Secrets
+          local-dir: build/  # A pasta build gerada pelo React
+          server-dir: public_html/  # O diretório onde o site será hospedado
