@@ -19,7 +19,7 @@ jobs:
         run: npm run build
 
       - name: Enviar arquivos para Hostinger via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ftp://devmedina.com  # Seu nome de host do FTP
           username: u852687484  # Seu nome de usuário FTP
