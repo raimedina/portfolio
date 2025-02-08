@@ -21,8 +21,8 @@ jobs:
       - name: Enviar arquivos para Hostinger via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ftp://devmedina.com  # Seu nome de host do FTP
+          server: devmedina.com  # Corrigido, removendo "ftp://"
           username: u852687484  # Seu nome de usuário FTP
           password: ${{ secrets.FTP_PASSWORD }}  # Senha armazenada no GitHub Secrets
           local-dir: build/  # A pasta build gerada pelo React
-          server-dir: public_html/  # O diretório onde o site será hospedado
+          server-dir: /public_html/  # Corrigido o caminho do diretório remoto
