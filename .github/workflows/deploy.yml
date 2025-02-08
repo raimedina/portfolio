@@ -3,7 +3,7 @@ name: Deploy to Hostinger
 on:
   push:
     branches:
-      - main  # O deploy será acionado quando fizer push na branch "main"
+      - main
 
 jobs:
   build:
@@ -15,15 +15,14 @@ jobs:
       - name: Instalar dependências
         run: npm install --legacy-peer-deps
 
-
       - name: Construir o projeto
         run: npm run build
 
       - name: Enviar arquivos para Hostinger via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: devmedina.com  # Corrigido, removendo "ftp://"
-          username: u852687484  # Seu nome de usuário FTP
+          server: ${{ secrets.FTP_SERVER }}  # Nome do host FTP
+          username: ${{ secrets.FTP_USERNAME }}  # Nome de usuário FTP atualizado
           password: ${{ secrets.FTP_PASSWORD }}  # Senha armazenada no GitHub Secrets
-          local-dir: build/  # A pasta build gerada pelo React
-          server-dir: /public_html/  # Corrigido o caminho do diretório remoto
+          local-dir: build/  # Pasta gerada pelo React
+          server-dir: /public_html/  # Diretório onde o site será hospedado
