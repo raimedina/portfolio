@@ -38,6 +38,7 @@
   display: var(--display-flex);
   gap: var(--spacing-small);
   align-items: center;
+  margin-right: -10px;
 }
 
 
@@ -49,6 +50,7 @@
   .hamburgerWrapper {
     display: block; 
     margin-left: -10px;
+   
   }
 
 }
