@@ -25,4 +25,6 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}  # Nome de usuário FTP atualizado
           password: ${{ secrets.FTP_PASSWORD }}  # Senha armazenada no GitHub Secrets
           local-dir: build/  # Pasta gerada pelo React
-          server-dir: /public_html/  # Diretório onde o site será hospedado
+          server-dir: /public_html/ 
+          exclude: |
+            public/  # Diretório onde o site será hospedado
