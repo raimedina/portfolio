@@ -6,7 +6,6 @@
   align-items: center;
   border: var(--border-width-medium) solid var(--primary-color);
   border-radius: var(--border-radius-medium);
-  overflow: hidden;
   box-shadow: var(--shadow-medium);
   transition: transform var(--animation-speed-normal), box-shadow var(--animation-speed-normal);
   width: 100%;

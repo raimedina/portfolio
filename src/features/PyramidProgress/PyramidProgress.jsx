@@ -12,7 +12,7 @@ const PyramidProgress = () => {
       setCurrentStep(progress);
     };
 
-    handleScroll(); // 🔹 Garante que a pirâmide apareça imediatamente ao carregar
+    handleScroll(); 
     window.addEventListener("scroll", handleScroll);
     
     return () => window.removeEventListener("scroll", handleScroll);

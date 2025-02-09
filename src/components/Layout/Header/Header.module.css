@@ -4,7 +4,7 @@
   display: var(--display-flex);
   justify-content: space-between;
   align-items: center;
-  padding: var(--spacing-small) var(--spacing-medium);
+  padding: var(--spacing-small);
   background-color: var(--primary-color);
   color: var(--text-color);
   position: sticky;
