@@ -28,3 +28,4 @@ jobs:
           server-dir: public_html/  
           exclude: |
             **/public/** 
+          dangerous-clean-slate: true
