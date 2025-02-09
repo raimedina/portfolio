@@ -21,10 +21,13 @@ jobs:
       - name: Enviar arquivos para Hostinger via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.FTP_SERVER }}  # Nome do host FTP
-          username: ${{ secrets.FTP_USERNAME }}  # Nome de usuário FTP atualizado
-          password: ${{ secrets.FTP_PASSWORD }}  # Senha armazenada no GitHub Secrets
-          local-dir: build/  # Pasta gerada pelo React
-          server-dir: /public_html
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: build/  
+          server-dir: public_html  
           exclude: |
-            public/  # Diretório onde o site será hospedado
+            **/node_modules/**
+            **/.git/**
+            **/.github/**
+            **/public/** 
