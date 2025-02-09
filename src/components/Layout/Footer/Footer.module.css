@@ -68,7 +68,7 @@
 
 .footerNote {
   margin: -1px 0 0px 0;
-  font-size: var(--font-size-small);
+  font-size: 10px;
   text-align: center;
 }
 
