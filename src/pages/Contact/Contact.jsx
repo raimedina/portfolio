@@ -5,6 +5,8 @@ import Text from "../../components/Text/Text";
 import Popup from "../../components/Popup/Popup";
 import Button from "../../components/Button/Button";
 import styles from "./Contact.module.css";
+import PyramidProgress from "../../features/PyramidProgress/PyramidProgress";
+
 
 const Contact = () => {
   const { t } = useTranslation();
@@ -96,6 +98,7 @@ const Contact = () => {
 
         {status && <p className={styles.statusMessage}>{status}</p>}
       </main>
+      <PyramidProgress></PyramidProgress>
       <Popup />
     </div>
   );

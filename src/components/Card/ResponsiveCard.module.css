@@ -14,6 +14,7 @@
   margin: var(--spacing-medium) auto;
   gap: var(--spacing-medium);
   padding: 5px;
+  z-index: 35;
 }
 
 .card.reverse {
@@ -67,8 +68,15 @@
 
   .card.reverse {
     flex-direction: column;
+  } 
+  
+  .text {
+    hyphens: auto; 
+    word-spacing: -0.05em;
   }
 
+
+ 
   .image {
     width: 100%;
     border-right: none;

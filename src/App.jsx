@@ -8,6 +8,7 @@ import Contact from "./pages/Contact/Contact";
 import Header from "../src/components/Layout/Header/Header";
 import Footer from "./components/Layout/Footer/Footer";
 import { ThemeProvider } from "./context/ThemeContext";
+import ScrollToTop from "./components/Scroll/ScrollToTop"; 
 import "./styles/index.module.css";
 
 const LanguageWrapper = ({ children }) => {
@@ -28,6 +29,7 @@ const App = () => {
   return (
     <ThemeProvider>
       <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+      <ScrollToTop />
         <LanguageWrapper>
           <Header />
           <Routes>

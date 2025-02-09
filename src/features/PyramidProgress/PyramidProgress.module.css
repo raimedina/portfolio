@@ -2,23 +2,40 @@
 
 .pyramidContainer {
   position: fixed; 
-  right: 20px;
+  right: 10px;
   top: 50%; 
   transform: translateY(-50%); 
   display: flex;
   flex-direction: column; 
-  gap: var(--spacing-small); 
+  gap: var(--spacing-small);
+  z-index: 45;
+  pointer-events: auto; 
 }
 
 .pyramid {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   background-color: var(--accent-color); 
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%); 
   transition: background-color 0.3s ease, transform 0.3s ease; 
+  cursor: pointer; 
 }
 
 .pyramid.active {
   background-color: var(--secondary-color); 
   transform: rotate(180deg); 
+}
+
+@media (max-width: 768px) {
+  .pyramid {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .pyramidContainer {
+    bottom: 50%; 
+    top: auto;
+    transform: none;
+    right: 6px;
+  }
 }

@@ -33,8 +33,9 @@ const Projects = () => {
   });
 
   return (
+    
     <div className={styles.pageContainer}>
-      <PyramidProgress />
+      
       <div className={styles.cardsContainer}>
         {cards.map((card, index) => (
           <div
@@ -57,6 +58,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
+      <PyramidProgress />
       <Popup />
     </div>
   );

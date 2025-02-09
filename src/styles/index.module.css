@@ -20,10 +20,6 @@ body, html {
   min-height: 100vh;
 }
 
-footer {
-  margin-top: auto; 
-  width: 100%;
-}
 
 .content {
   flex: 1;

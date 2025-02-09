@@ -5,6 +5,8 @@
   flex-direction: column;
   background-color: var(--background-color);
   padding: var(--spacing-large);
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .contactContainer {
@@ -25,15 +27,14 @@
   font-weight: bold;
   text-align: center;
   margin-bottom: var(--spacing-medium);
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .description {
   font-size: var(--font-size-medium);
-  text-align: center;
   color: var(--text-color);
   line-height: var(--line-height-large);
-  width: 90%;
+  width: 85%;
   margin-bottom: var(--spacing-large);
 }
 
@@ -49,7 +50,7 @@
   display: flex;
   flex-direction: column;
   gap: var(--spacing-medium);
-  width: 100%;
+  width: 90%;
   max-width: 600px;
 }
 

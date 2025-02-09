@@ -10,8 +10,7 @@
   color: white;
   border-radius: var(--border-radius-large);
   box-shadow: var(--shadow-medium);
-  width: 85%;
-  max-width: 1000px;
+  width: 90%;
   margin: auto;
   transition: height 0.3s ease-in-out;
   position: relative;
@@ -56,8 +55,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: justify;
-  width: 70%;
+
+  
 }
 
 .name {
@@ -69,7 +68,7 @@
 
 .summary1 {
   font-size: 1.3rem;
-  line-height: 3rem;
+  line-height: 2rem;
   color: white;
   max-width: 100%;
   transition: opacity 0.3s ease-in-out;
@@ -102,19 +101,14 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  text-align: justify;
-  
-  
   margin-top: var(--spacing-small);
   transition: margin-top 0.3s ease-in-out;
- 
 }
 
 .summary2 {
   width: 95%;
-  text-align: justify;
   display: block;
-  line-height:3rem;
+  line-height:2rem;
   margin-top: -20px;
   font-size: 1.3rem;
 }
@@ -151,7 +145,7 @@
   .profileSection {
    
     padding: var(--spacing-small);
-    width: 100%;
+    width: 96%;
   }
 
   .contentContainer {
@@ -174,19 +168,16 @@
     width: 100%;  
     font-size: 1.5rem;
     line-height: 2.2rem;
-    text-align: justify;
  }
   .summary1, .summary2 {
-    font-size: 1.5rem;
-    line-height: 2.2rem;
-    text-align: justify;
-    width: 98%; 
-    max-width: 98%;
+    font-size: 1.3rem;
+    line-height: 3rem;
     padding: 0 var(--spacing-xxsmall);
     margin: auto;
     margin-bottom: 5%;
-     hyphens: auto; 
+    hyphens: auto; 
     word-break: break-word;
+    word-spacing: -0.6rem;
   }
 
   .cvButton {

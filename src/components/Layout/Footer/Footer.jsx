@@ -14,31 +14,33 @@ const Footer = ({
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
-        <div className={styles.text}>
+        <div className={styles.topSection}>
           <Text as="h3" className={styles.name}>{t("footer.name")}</Text>
-          <Text as="p" className={styles.description}>{t("footer.description")}</Text>
+          <div className={styles.socialIcons}>
+            <Link
+              to={linkedinUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.iconLink}
+              aria-label={t("footer.linkedinAria")}
+            >
+              <FaLinkedin className={styles.icon} />
+            </Link>
+            <Link
+              to={githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.iconLink}
+              aria-label={t("footer.githubAria")}
+            >
+              <FaGithub className={styles.icon} />
+            </Link>
+          </div>
         </div>
-        <div className={styles.socialIcons}>
-          <Link
-            to={linkedinUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.iconLink}
-            aria-label={t("footer.linkedinAria")}
-          >
-            <FaLinkedin className={styles.icon} />
-          </Link>
-          <Link
-            to={githubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.iconLink}
-            aria-label={t("footer.githubAria")}
-          >
-            <FaGithub className={styles.icon} />
-          </Link>
-        </div>
+
+        <Text as="p" className={styles.description}>{t("footer.description")}</Text>
       </div>
+
       <Text as="p" className={styles.footerNote}>{t("footer.footerNote")}</Text>
     </footer>
   );
