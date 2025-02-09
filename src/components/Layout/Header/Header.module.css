@@ -49,8 +49,8 @@
 
   .hamburgerWrapper {
     display: block; 
+    margin-left: -5px;
   }
-
 }
 
 
