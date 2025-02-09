@@ -5,7 +5,6 @@
   position: relative;
   display: flex;
   align-items: center;
-  padding: var(--spacing-small) var(--spacing-medium); 
 }
 
 .languageButton {

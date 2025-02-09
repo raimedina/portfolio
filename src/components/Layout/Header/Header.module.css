@@ -36,25 +36,26 @@
 
 .actions {
   display: var(--display-flex);
-  gap: var(--spacing-medium);
+  gap: var(--spacing-small);
   align-items: center;
 }
 
 
-@media (width <= 768px) {
+@media (max-width: 1024px) {
   .navbar {
-    display: none;
+    display: none; 
   }
 
   .hamburgerWrapper {
-    display: block;
+    display: block; 
   }
+
 }
 
 
-@media (width >= 769px) {
+@media (min-width: 1025px) {
   .hamburgerWrapper {
-    display: none;
+    display: none; 
   }
 }
 

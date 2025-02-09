@@ -128,4 +128,8 @@
   .techIcon {
     font-size: 2rem;
   }
+
+  .role{
+    white-space: pre-line;
+  }
 }
