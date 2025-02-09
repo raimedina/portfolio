@@ -3,6 +3,8 @@
 .hamburgerMenu {
   position: relative;
   z-index: 9999;
+  margin-left: -5px;
+
 }
 
 .menuButton {

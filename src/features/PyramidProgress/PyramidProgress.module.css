@@ -4,6 +4,7 @@
   position: fixed; 
   right: 10px;
   top: 50%; 
+  bottom: 50%; 
   transform: translateY(-50%); 
   display: flex;
   flex-direction: column; 
@@ -30,10 +31,11 @@
   .pyramid {
     width: 15px;
     height: 15px;
+   
   }
   
   .pyramidContainer {
-    bottom: 50%; 
+    
     top: auto;
     transform: none;
     right: 6px;
