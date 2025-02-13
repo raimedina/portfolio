@@ -7,7 +7,7 @@
   padding: var(--spacing-medium);
   background-color: var(--primary-color);
   color: white;
-  width: 106%;
+  width: 100%;
   box-shadow: var(--shadow-color);
   box-sizing: border-box;
 }
@@ -74,6 +74,9 @@
 }
 
 @media (max-width: 768px) {
+  .footer{
+    width: 106%;
+  }
   .container, .topSection {
     width: 100%;
   }

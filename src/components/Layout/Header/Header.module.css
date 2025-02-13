@@ -10,7 +10,7 @@
   position: sticky;
   top: 0;
   z-index: var(--z-index-header);
-  width: 102%;
+  width: 100%;
   box-shadow: 0 4px 6px var(--shadow-color);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -43,6 +43,9 @@
 
 
 @media (max-width: 1024px) {
+  .header{
+    width: 102%;
+  }
   
   .navbar {
     display: none; 

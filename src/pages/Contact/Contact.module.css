@@ -7,6 +7,7 @@
   padding: var(--spacing-large);
   padding-left: 10px;
   padding-right: 10px;
+  width: 98%;
 }
 
 .contactContainer {

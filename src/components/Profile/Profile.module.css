@@ -144,7 +144,7 @@
   .profileSection {
    
     padding: var(--spacing-small);
-    width: 98%;
+    width: 100%;
   }
 
   .contentContainer {
@@ -178,7 +178,9 @@
     word-break: break-word;
     word-spacing: -0.6rem;
   }
-
+  .summary2 {
+    width: 95%;
+  }
   .cvButton {
     
     font-size: 1.3rem;
