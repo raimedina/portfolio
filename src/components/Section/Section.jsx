@@ -1,10 +1,12 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { useNavigate, useParams } from "react-router-dom";
-import styles from "./Section.module.css";
+
 import coderImage from "../../assets/coder.png";
 import Text from "../Text/Text";
 import Button from "../Button/Button";
+import styles from "./Section.module.css";
+
 import {
   FaDownload,
   FaReact,

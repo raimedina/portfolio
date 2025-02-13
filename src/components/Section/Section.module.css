@@ -1,4 +1,4 @@
-@import url('../../styles/variables.module.css');
+@import url("../../styles/variables.module.css");
 
 .section {
   display: flex;
@@ -23,6 +23,9 @@
   font-size: var(--font-size-xlarge);
   font-weight: 700;
   color: var(--secondary-color);
+  word-wrap: break-word;
+  hyphens: auto;
+  line-height: var(--line-height-large);
 }
 
 .summary {
@@ -56,7 +59,7 @@
 }
 
 [data-theme="dark"] .techIcon {
-  color: var(--hover-color); 
+  color: var(--hover-color);
 }
 
 [data-theme="dark"] .techIcon:hover {
@@ -107,7 +110,7 @@
     flex-direction: column;
     align-items: center;
     padding: var(--spacing-medium);
-    width: 100%;
+    width: 97%;
   }
 
   .textContainer {
@@ -127,12 +130,5 @@
 
   .techIcon {
     font-size: 2rem;
-  }
-
-  .role{
-    display: block; 
-    white-space: pre-line;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
   }
 }

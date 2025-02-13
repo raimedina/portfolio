@@ -61,7 +61,7 @@
   border-radius: var(--border-radius-medium);
   box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
   padding: var(--spacing-medium);
-  width: 94%;
+  width: 93%;
   max-width: 1200px; 
   margin: auto;
   display: flex;
@@ -71,7 +71,7 @@
 
 @media (width <= 768px) {
   .home{
-    width: 98%;
+    width: 97%;
     padding: var(--spacing-small);
    
   }

@@ -19,7 +19,7 @@
 }
 
 .card {
-  width: 95%;
+  width: 100%;
   max-width: 800px;
   min-height: 400px;
   font-size: var(--font-size-large);

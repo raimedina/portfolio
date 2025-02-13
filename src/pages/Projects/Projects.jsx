@@ -58,7 +58,6 @@ const Projects = () => {
           </div>
         ))}
       </div>
-      <PyramidProgress />
       <Popup />
     </div>
   );
