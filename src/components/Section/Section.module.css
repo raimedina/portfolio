@@ -131,4 +131,11 @@
   .techIcon {
     font-size: 2rem;
   }
+  .role {
+    font-size: var(--font-size-large);
+    font-weight: 700;
+    word-wrap: break-word;
+    hyphens: auto;
+    line-height: var(--line-height-large);
+  }
 }

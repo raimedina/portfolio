@@ -10,7 +10,8 @@
   position: sticky;
   top: 0;
   z-index: var(--z-index-header);
-  width: 98%;
+  width: 100%;
+  
   box-shadow: 0 4px 6px var(--shadow-color);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -38,7 +39,7 @@
   display: var(--display-flex);
   gap: var(--spacing-small);
   align-items: center;
-  margin-right: -10px;
+  margin-right: 1%;
 }
 
 
@@ -49,7 +50,6 @@
 
   .hamburgerWrapper {
     display: block; 
-    margin-left: -5px;
   }
 }
 
