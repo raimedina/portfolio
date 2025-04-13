@@ -12,8 +12,15 @@
 
   "about": {
     "summary1": "My journey into technology began in 2020 when I immersed myself in programming, combining my background in Journalism and a Master’s in Communication Sciences. This transition led me naturally to Frontend Development, where I specialize in creating intuitive and scalable interfaces. Having lived in Portugal, Ireland, and Spain, I’ve developed adaptability and strong collaboration skills in multicultural environments.",
-    "summary2": "Currently, I am a Frontend Developer specializing in the JavaScript ecosystem, with experience in React, TypeScript, Redux, CSS Modules, and Next.js. I also have knowledge of React Native, Storybook, Jest, and SCSS, focusing on performance optimization, accessibility, and responsive development. I have contributed to international projects at Celfocus, working on interfaces for Vodafone Germany, Vodafone UK, and Du (UAE), and I have also worked as a freelancer on web and mobile applications. Additionally, I am fluent in Portuguese, English, and Spanish, with basic knowledge of Italian, facilitating global collaboration. Passionate about technology’s impact, I continuously seek to innovate and enhance user experiences.",
+    "summary2": "I'm a Frontend Developer specialized in the JavaScript ecosystem, with experience in React, TypeScript, Redux, CSS Modules, and Next.js. I also work with React Native, Storybook, Jest, and SCSS, focusing on performance optimization, accessibility, and responsive design. I contributed to international projects at Celfocus, developing interfaces for Vodafone Germany, Vodafone UK, and Du (UAE), and have also built web and mobile applications as a freelancer. I’m currently pursuing a degree in IT Management at IFSC, expanding my skills in governance, infrastructure, and project management. Fluent in Portuguese, English, and Spanish, with basic knowledge of Italian, I collaborate easily in multicultural environments. Passionate about the impact of technology, I strive to constantly innovate and enhance user experiences.",
     "timeline": [
+      {
+        "year": "2025",
+        "event": "IT Management",
+        "location": "Federal Institute of Santa Catarina - IFSC (Brazil)",
+        "details": "Ongoing undergraduate program focused on IT governance, infrastructure, systems, and project management.",
+        "type": "ti"
+      },
       {
         "year": "2024",
         "event": "Spanish Course",

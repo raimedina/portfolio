@@ -12,8 +12,15 @@
 
   "about": {
     "summary1": "Minha jornada na tecnologia começou em 2020, quando mergulhei na programação, combinando minha formação em Jornalismo e um Mestrado em Ciências da Comunicação. Essa transição me levou naturalmente para o Desenvolvimento Frontend, onde me especializo na criação de interfaces intuitivas e escaláveis. Tendo vivido em Portugal, Irlanda e Espanha, desenvolvi adaptabilidade e fortes habilidades de colaboração em ambientes multiculturais.",
-    "summary2": "Atualmente, sou Desenvolvedor Frontend especializado no ecossistema JavaScript, com experiência em React, TypeScript, Redux, CSS Modules e Next.js. Também tenho conhecimentos em React Native, Storybook, Jest e SCSS, com foco na otimização de desempenho, acessibilidade e desenvolvimento responsivo. Contribuí para projetos internacionais na Celfocus, trabalhando em interfaces para Vodafone Alemanha, Vodafone Reino Unido e Du (EAU), além de atuar como freelancer no desenvolvimento de aplicações web e mobile. Além disso, sou fluente em português, inglês e espanhol, com conhecimento básico de italiano, o que facilita a colaboração em projetos globais. Apaixonado pelo impacto da tecnologia, busco constantemente inovar e aprimorar a experiência dos usuários.",
+    "summary2": "Sou Desenvolvedora Frontend especializada no ecossistema JavaScript, com experiência em React, TypeScript, Redux, CSS Modules e Next.js. Também atuo com React Native, Storybook, Jest e SCSS, com foco na performance, acessibilidade e responsividade. Contribuí para projetos internacionais na Celfocus, desenvolvendo interfaces para Vodafone Alemanha, Vodafone Reino Unido e Du (EAU), além de criar aplicações web e mobile como freelancer. Estou cursando Gestão da Tecnologia da Informação no IFSC, expandindo minha atuação para áreas como governança, infraestrutura e gestão de projetos. Fluente em português, inglês e espanhol, com conhecimento básico de italiano, colaboro com facilidade em ambientes multiculturais. Apaixonada pelo impacto da tecnologia, busco constantemente inovar e aprimorar a experiência dos usuários.",
     "timeline": [
+      {
+        "year": "2025",
+        "event": "Gestão da Tecnologia da Informação",
+        "location": "Instituto Federal de Santa Catarina - IFSC (Brasil)", 
+        "details": "Curso superior em andamento com foco em governança, infraestrutura, sistemas e gestão de projetos em TI.",
+        "type": "ti"
+      },
       {
         "year": "2024",
         "event": "Curso de Espanhol",
